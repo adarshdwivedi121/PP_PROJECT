@@ -40,3 +40,9 @@ PyCUDA Installation
 
 --  $ cd pycuda-VERSION/test
 --  $ python test_driver.py
+
+OpenCV installation
+	Go to the following link to install OpenCV	'https://docs.opencv.org/3.1.0/d7/d9f/tutorial_linux_install.html'
+
+To run the Code use the Following Commands on Linux Terminal
+-- 	$ python int.py

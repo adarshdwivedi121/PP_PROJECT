@@ -261,7 +261,7 @@ kernel = cuda.mem_alloc_like(k)
 createKernel(kernel, size, sig, grid=(1, 1), block=(int(size), 1, 1), shared=int(size * size))
 
 # Gaussian Blur
-colorImg = cv2.imread('/home/adarsh/Downloads/box.jpg')
+colorImg = cv2.imread('Original.jpg')
 img = cv2.cvtColor(colorImg, cv2.COLOR_BGR2GRAY)
 blur = numpy.zeros(img.shape, dtype=numpy.uint8)
 width, height = img.shape
